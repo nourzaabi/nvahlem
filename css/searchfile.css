@@ -1,0 +1,37 @@
+#search-input {
+    display: none;
+    /* other styles */
+}
+
+#search-input.show {
+    display: block;
+    /* additional styles for animation or transition */
+}
+
+#results {
+    display: none;
+    /* other styles */
+}
+
+#results.show {
+    display: block;
+    /* additional styles for animation or transition */
+}
+/* Styles pour le résultat de la recherche */
+#results {
+    display: none; /* Masquer les résultats par défaut */
+    padding: 10px; /* Ajoutez une marge intérieure pour l'apparence */
+    background-color: white; /* Arrière-plan blanc */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    position: absolute; /* Position absolue pour le positionnement */
+    top: 100%; /* Placer sous l'élément de recherche */
+    left: 0; /* Aligner à gauche */
+    width: 100%; /* Pleine largeur */
+    z-index: 1; /* Assurer que les résultats apparaissent au-dessus des autres éléments */
+        }
+
+#results.show {
+    display: block; /* Afficher les résultats lorsqu'ils sont visibles */
+        }
